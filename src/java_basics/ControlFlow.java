@@ -45,7 +45,7 @@ public class ControlFlow {
 		System.out.println("********* Nisa's Code *********");
 		boolean isActive = false;
 		
-		if (isActive) {
+		if (!isActive) {
 			System.out.println("Print line 49: isActive: " + isActive);
 		} else if (isActive) {
 			System.out.println("Print line 51: isActive" + isActive);
